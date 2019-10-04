@@ -1,5 +1,5 @@
 FROM openjdk:11.0.4-jre-slim
-MAINTAINER Murilo Pereira <murilo@murilopereira.com>
+MAINTAINER Interviewer
 
 ADD target/uberjar/nu-event-processor-0.1.0-SNAPSHOT-standalone.jar /srv
 
