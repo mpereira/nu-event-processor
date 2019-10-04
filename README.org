@@ -56,28 +56,27 @@
    The project structure should feel familiar to people with exposure to
    Clojure.
    #+begin_src text
-   ├── Dockerfile
-   ├── README.org
-   ├── project.clj
-   ├── src
-   │   └── nu_event_processor
-   │       ├── core.clj
-   │       ├── duplicate_preventer.clj
-   │       ├── operation.clj
-   │       ├── processor.clj
-   │       ├── rate_limiter.clj
-   │       ├── rules.clj
-   │       ├── system.clj
-   │       ├── utils.clj
-   │       └── validations.clj
-   └── test
-       ├── nu_event_processor
-       │   ├── core_test.clj
-       │   ├── duplicate_preventer_test.clj
-       │   └── rate_limiter_test.clj
-       └── resources
+   Dockerfile
+   README.org
+   project.clj
+   src/
+       nu_event_processor/
+           core.clj
+           duplicate_preventer.clj
+           operation.clj
+           processor.clj
+           rate_limiter.clj
+           rules.clj
+           system.clj
+           utils.clj
+           validations.clj
+   test/
+       nu_event_processor/
+           core_test.clj
+           duplicate_preventer_test.clj
+           rate_limiter_test.clj
 
-   5 directories, 15 files
+   4 directories, 15 files
    #+end_src
 
    There are end-to-end /integration-like/ tests in the
